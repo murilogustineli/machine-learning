@@ -5,7 +5,7 @@ _**Linear Regression**_ is a supervised learning algorithm which goal is to pred
   - dependent variable = _**y**_
   - independent variable = _**x**_
 
-![Linear Regression](./LinearRegression.jpg)
+![Linear Regression](./Linear_Regression.jpg)
 
 <br>
 
