@@ -10,6 +10,7 @@ _**Linear Regression**_ is a supervised learning algorithm which goal is to pred
 <br>
 <br>
 <br>
+
 _**Hypothesis**_
 <br>We define a linear relationship between x and y by using the equation _Y = mX + b_. <br>In this equation, m is the _**slope**_ of the line and b is the _**y-intercept**_.
 
