@@ -7,7 +7,6 @@ _**Linear Regression**_ is a supervised learning algorithm which goal is to pred
 
 
 
-_Image by [Dan White 1000](https://www.shutterstock.com/g/Dan+White+1000) on Shutterstock_
 <br>
 <br>
 <br>
