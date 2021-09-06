@@ -4,7 +4,7 @@ _**Linear Regression**_ is a supervised learning algorithm which goal is to to f
 In statistics and machine learning and other data science fields, we optimize a lot of stuff. When we fit a line to data using linear regression, we optimize the _**slope**_ and _**intercept**_. Linear Regression predicts continous numerical values based on the given data points. 
 
 In summary, _**Linear Regression fits a line to data.**_ 
-- In Linear Regression we want to find the optimal values for the _slope_ and _intercept_ so that we minimize the error.
+- In Linear Regression we want to find the optimal values for the _**slope**_ and _**intercept**_ so that we minimize the error.
 - Linear Regression tries to find parameters of the line function, so the distance between all points and the line is as small as possible.
 - In statistcs, linear regression is a linear approach to modeling the relationship between a _dependent variable_ and one or more _independent variables_.
   - dependent variable = _**y**_
