@@ -12,7 +12,7 @@ _**Linear Regression**_ is a supervised learning algorithm which goal is to to f
 <br>
 
 ## Hypothesis
-We define a linear relationship between x and y by using the equation _Y = mX + b_. <br>In this equation, m is the _**slope**_ of the line and b is the _**y-intercept**_.
+We define a linear relationship between x and y by using the equation _**Y = mX + b**_. <br>In this equation, m is the _**slope**_ of the line and b is the _**y-intercept**_.
 
 <br>
 
@@ -29,7 +29,7 @@ It tells you how close a regression line is to a set of points. It does this by 
 ## Gradient Descent 
 _"A gradient measures how much the output of a function changes if you change the inputs a little bit." — Lex Fridman (MIT)_
 <br>
-<br>Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost). Here, the cost function is the _MSE_. It minimizes some function (f) by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. Parameters refer to coefficients in Linear Regression and weights in neural networks.
+<br>_**Gradient descent**_ is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost). Here, the cost function is the _MSE_. It minimizes some function (f) by iteratively moving in the direction of steepest descent as defined by the negative of the gradient. In machine learning, we use gradient descent to update the parameters of our model. Parameters refer to coefficients in Linear Regression and weights in neural networks.
 <br>
 <br>A gradient simply measures the change in all weights with regard to the change in error. You can also think of a gradient as the slope of a function. The higher the gradient, the steeper the slope and the faster a model can learn. But if the slope is zero, the model stops learning. In mathematical terms, a gradient is a partial derivative with respect to its inputs.
 
