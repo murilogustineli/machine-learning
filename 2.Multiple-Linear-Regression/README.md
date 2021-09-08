@@ -8,7 +8,7 @@ _**Multiple linear regression (MLR)**_, also known simply as _**multiple regress
 Multiple Linear Regression differs from Multivariate Regression. Multivariate Regression is a method used to measure the degree at which more than one independent variable (predictors) and more than one dependent variable (responses), are linearly related. The method is broadly used to predict the behavior of the response variables associated to changes in the predictor variables, once a desired degree of relation has been established.
 
 ## Formula and Calculation of Multiple Linear Regression
-_yi = β0 + β1x1 + β2x2 + β3x3 + ... + βpXip + ϵ
+_yi = β0 + β1x1 + β2x2 + β3x3 + ... + βpXip + ϵ_
 where, for i=n observations:
 - _yi_ = dependent variable
 - _xi_ = explanatory variables (independent variables)
