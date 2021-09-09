@@ -2,7 +2,7 @@
 
 _**Multiple linear regression (MLR)**_, also known simply as _**multiple regression**_, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable.
 - The goal of multiple linear regression is to model the linear relationship between the _**explanatory (independent)**_ variables and _**response (dependent)**_ variable. 
-- Multiple regression is an extension of linear (OLS) regression that uses just one explanatory variable.
+- Multiple regression is an extension of ordinary least-squares (OLS) regression because it involves more than one explanatory variable.
 
 
 <br>
