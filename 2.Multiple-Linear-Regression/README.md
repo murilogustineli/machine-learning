@@ -12,7 +12,7 @@ Multiple Linear Regression differs from Multivariate Regression. Multivariate Re
 <br>
 
 ## Formula and Calculation of Multiple Linear Regression
-_yi = β0 + β1x1 + β2x2 + β3x3 + ... + βpXip + ϵ_
+_y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + β<sub>3</sub>x<sub>3</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ_
 
 where, for i=n observations:
 - _yi_ = dependent variable
