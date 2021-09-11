@@ -9,8 +9,8 @@ In statistics, machine learning and other data science fields, we optimize a lot
 - _**Linear Regression fits a line to data**_ 
 - It is a simple algorithm initially developed in the field of statistics and was studied as a model for understanding the relationship between input and output variables
 - Linear Regression tries to find parameters of the line function, so the distance between all points and the line is as small as possible.
-- In Linear Regression we want to find the optimal values for the _**slope**_ and _**intercept**_ so that we minimize the error.
-- In statistcs, linear regression is a linear approach to modeling the relationship between a _dependent variable_ and one or more _independent variables_.
+- In Linear Regression we want to find the optimal values for the _**slope**_ and _**intercept**_ so that we minimize the error
+- In statistcs, linear regression is a linear approach to modeling the relationship between a _dependent variable_ and one or more _independent variables_
   - dependent variable = _**y**_
   - independent variable = _**x**_
 
