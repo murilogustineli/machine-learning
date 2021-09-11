@@ -45,6 +45,35 @@ In simple words, the model is expressed as _**DATA = FIT + RESIDUAL**_, where th
 
 <br>
 
+- $ \hat{y} $ can be further written into:
+
+$$ \large MSE = \frac{1}{N} \sum_{i=1}^{n} ((y_i - (wx_i + b))^2 $$
+
+<br>
+
+- To update weights and biases, we're using gradient descent
+- It relies on partial derivatives calculation for each parameter
+- Below you'll find derived MSE wrt. each parameter:
+
+$$ \large \partial_w = \frac{1}{N} \sum_{i=1}^{n} 2x_i(\hat{y} - y) $$
+<br>
+$$ \large \partial_b = \frac{1}{N} \sum_{i=1}^{n} 2(\hat{y} - y) $$
+
+<br>
+
+- This $ 2 $ can be ommited, or you can leave it - it's not important
+- Next, we're updating the existing weights and bias according to the following formulas:
+
+$$ \large w = w - \alpha \cdot \partial_w $$
+<br>
+$$ \large b = b - \alpha \cdot \partial_b $$
+
+- Where $ \alpha $ is the learning rate
+- This process is then repeated for a predefined number of iterations
+- Let's see this in action
+
+<br>
+
 ## Example of using Multiple Regression for predicting house prices
 We want to predict house prices and gathered a few features, such as, size of the house (sqr. feet), number of bedrooms, and age of the house.
 
