@@ -8,12 +8,11 @@ _**Multiple linear regression**_ is used to estimate the relationship between _*
 
 <br>
 
-## How to perform a multiple linear regression
-### Formula and Calculation of Multiple Linear Regression
-The formula for a multiple linear regression is:
-### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + β<sub>3</sub>x<sub>i3</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ_
+## Formula and Calculation of Multiple Linear Regression
+The model for multiple linear regression, given _n_ observations, is:
+### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ<sub>i</sub>_
 
-where, for _i=n_ observations:
+where, for _i=1,2,...,n_ observations:
 - _y<sub>i</sub>_ = dependent variable
 - _x<sub>i</sub>_ = explanatory variables (independent variables)
 - _β<sub>0</sub>_ = y-intercept
@@ -22,12 +21,13 @@ where, for _i=n_ observations:
 
 <br>
 
-- y = the predicted value of the dependent variable
-- B0 = the y-intercept (value of y when all other parameters are set to 0)
-- B1X1= the regression coefficient (B1) of the first independent variable (X1) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value)
+### _y = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub> + ϵ_
+- _y_ = the predicted value of the dependent variable
+- _β<sub>0</sub>_ = the y-intercept (value of _y_ when all other parameters are set to 0)
+- _β<sub>1</sub>x<sub>1</sub>_ = the regression coefficient (_β<sub>1</sub>_) of the first independent variable (_x<sub>1</sub>_) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value)
 - … = do the same for however many independent variables you are testing
-- BnXn = the regression coefficient of the last independent variable
-- e = model error (a.k.a. how much variation there is in our estimate of y)
+- _β<sub>n</sub>x<sub>n</sub>_ = the regression coefficient of the last independent variable
+- _ϵ_ = model error (a.k.a. how much variation there is in our estimate of _y_)
 
 <br>
 
@@ -52,4 +52,5 @@ In multiple linear regression, the model calculates the line of best fit that mi
 
 ### Resources
 1. [Scribbr - An introduction to multiple linear regression](https://www.scribbr.com/statistics/multiple-linear-regression/)
-2. [Investopedia - Multiple Linear Regression (MLR)](https://www.investopedia.com/terms/m/mlr.asp)
+2. [Yale Stats](http://www.stat.yale.edu/Courses/1997-98/101/linmult.htm)
+3. [Investopedia - Multiple Linear Regression (MLR)](https://www.investopedia.com/terms/m/mlr.asp)
