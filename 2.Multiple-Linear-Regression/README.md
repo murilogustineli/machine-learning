@@ -10,24 +10,24 @@ _**Multiple linear regression**_ is used to estimate the relationship between _*
 
 ## Formula and Calculation of Multiple Linear Regression
 The model for multiple linear regression, given _n_ observations, is:
-### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ<sub>i</sub>_
+### _y = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub> + ϵ_
+where, for _**i=1, 2, ... , n**_ observations:
+- _y_ = the predicted value of the dependent variable
+- _β<sub>0</sub>_ = the y-intercept (value of _y_ when all other parameters are set to 0)
+- _β<sub>1</sub>x<sub>1</sub>_ = the regression coefficient (_β<sub>1</sub>_) of the first independent variable (_x<sub>1</sub>_) (a.k.a. the effect that increasing the value of the independent variable has on the predicted _y_ value)
+- _β<sub>2</sub>x<sub>2</sub>_ = the regressino coefficient (_β<sub>2</sub>_) of the second independent variable (_x<sub>2</sub>_)
+- … = do the same for however many independent variables you are testing
+- _β<sub>n</sub>x<sub>n</sub>_ = the regression coefficient of the last independent variable
+- _ϵ_ = model error (a.k.a. how much variation there is in our estimate of _y_)
 
-where, for _i=1,2,...,n_ observations:
+<!---
+### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ<sub>i</sub>_
 - _y<sub>i</sub>_ = dependent variable
 - _x<sub>i</sub>_ = explanatory variables (independent variables)
 - _β<sub>0</sub>_ = y-intercept
 - _β<sub>p</sub>_ = slope coeficient for each explanatory variable
 - ϵ = the model's error term (also known as the residuals)
-
-<br>
-
-### _y = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub> + ϵ_
-- _y_ = the predicted value of the dependent variable
-- _β<sub>0</sub>_ = the y-intercept (value of _y_ when all other parameters are set to 0)
-- _β<sub>1</sub>x<sub>1</sub>_ = the regression coefficient (_β<sub>1</sub>_) of the first independent variable (_x<sub>1</sub>_) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value)
-- … = do the same for however many independent variables you are testing
-- _β<sub>n</sub>x<sub>n</sub>_ = the regression coefficient of the last independent variable
-- _ϵ_ = model error (a.k.a. how much variation there is in our estimate of _y_)
+--->
 
 <br>
 
