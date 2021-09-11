@@ -34,11 +34,11 @@ We want to predict house prices and gathered a few features, such as, size of th
 In this example, our formula can be written as:
 <br>_**price = β<sub>0</sub> + m<sub>1</sub> * size + m<sub>2</sub> * bedrooms + m<sub>3</sub> * age**_
 
-- The price is our dependent variable (_y_), also known as the _**target variable**_ in Machine Learning lingo.
-- The features are our independent variables (_size, bedrooms, age_).
+- The price is our dependent variable (_y_), also known as the _**target variable**_ in Machine Learning lingo
+- The features are our independent variables (_size, bedrooms, age_)
 - _β<sub>0</sub>_ = y-intercept
 - _m_ = regression coefficients
-- Every value of the independent variable _x_ is associated with a value of the dependent variable _y_.
+- Every value of the independent variable _x_ is associated with a value of the dependent variable _y_
 
 <!---
 ### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ<sub>i</sub>_
