@@ -2,11 +2,28 @@
 
 _**Regression models**_ are used to describe relationships between variables by fitting a line to the observed data. Regression allows you to estimate how a dependent variable (_y_) changes as the independent variable(s) (_x_) change.
 
-_**Multiple linear regression**_ is used to estimate the relationship between _**two or more independent variables**_ and _**one dependent variable**_. You can use multiple linear regression when you want to know:
-1. How strong the relationship is between two or more independent variables and one dependent variable (e.g. how rainfall, temperature, and amount of fertilizer added affect crop growth).
+_**Multiple linear regression**_ is used to estimate the relationship between _**two or more independent variables (x)**_ and _**one dependent variable (y)**_. You can use multiple linear regression when you want to know:
+1. How strong the relationship is between two or more independent variables and one dependent variable (e.g. how size, number of bedroooms, and age affect house prices).
 2. The value of the dependent variable at a certain value of the independent variables (e.g. the expected yield of a crop at certain levels of rainfall, temperature, and fertilizer addition).
 
-In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**features**_. Where, for _**i = 1, 2, ... , n**_ features.
+In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**features**_ and the dependent variable as _**target**_
+- Where, for _**i = 1, 2, ... , n**_ features.
+
+<br>
+
+## Simple vs. Multiple linear regression
+- Simple linear regression solves problems with only one input feature
+- Multiple linear regression solves problems with multiple input features
+
+<br>
+
+## Main ideas
+- Training a linear regression model means calculating the best coefficients for the line equation formula
+- **Gradient descent** can be used to obtain the optimal coefficients
+    - An iterative optimization algorithm that calculates derivatives wrt. (with relation to) each coefficient, and updates the coefficients on the go
+    - One additional parameter - *learning rate*, specifies the rate at which coefficients are updated
+        - High learning rate can lead to "missing" the best values
+        - Low learning rate can lead to slow optimization
 
 <br>
 
@@ -56,6 +73,8 @@ Simple regression is just fitting a line to data where you have one dependent va
 _**Multiple linear regression (MLR)**_, also known simply as _**multiple regression**_, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable.
 - The goal of multiple linear regression is to model the linear relationship between the _**explanatory (independent)**_ variables and _**response (dependent)**_ variable. 
 - Multiple regression is an extension of ordinary least-squares (OLS) regression because it involves more than one explanatory variable.
+- Simple linear regression solves problems with only one input feature
+- Multiple linear regression solves problems with multiple input features
 
 <br>
 
@@ -74,3 +93,4 @@ In multiple linear regression, the model calculates the _**line of best fit**_ t
 2. [Yale Stats](http://www.stat.yale.edu/Courses/1997-98/101/linmult.htm)
 3. [Investopedia - Multiple Linear Regression (MLR)](https://www.investopedia.com/terms/m/mlr.asp)
 4. [codebasics - Machine Learning Tutorial: Linear Regression Multiple Variables](https://www.youtube.com/watch?v=J_LnPL3Qg70&ab_channel=codebasics)
+5. [daradecic - GitHub repo](https://github.com/daradecic/BDS-articles/blob/main/010_MML_Multiple_Linear_Regression.ipynb)
