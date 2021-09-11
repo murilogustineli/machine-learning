@@ -6,12 +6,14 @@ _**Multiple linear regression**_ is used to estimate the relationship between _*
 1. How strong the relationship is between two or more independent variables and one dependent variable (e.g. how rainfall, temperature, and amount of fertilizer added affect crop growth).
 2. The value of the dependent variable at a certain value of the independent variables (e.g. the expected yield of a crop at certain levels of rainfall, temperature, and fertilizer addition).
 
+In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**features**_. Where, for _**i = 1, 2, ... , n**_ features.
+
 <br>
 
 ## Formula and Calculation of Multiple Linear Regression
 The model for multiple linear regression, given _n_ observations, is:
 ### _y = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub> + ϵ_
-where, for _**i=1, 2, ... , n**_ observations:
+where, for _**i = 1, 2, ... , n**_ observations:
 - _y_ = the predicted value of the dependent variable
 - _β<sub>0</sub>_ = the y-intercept (value of _y_ when all other parameters are set to 0)
 - _β<sub>1</sub>x<sub>1</sub>_ = the regression coefficient (_β<sub>1</sub>_) of the first independent variable (_x<sub>1</sub>_) (a.k.a. the effect that increasing the value of the independent variable has on the predicted _y_ value)
@@ -19,6 +21,18 @@ where, for _**i=1, 2, ... , n**_ observations:
 - … = do the same for however many independent variables you are testing
 - _β<sub>n</sub>x<sub>n</sub>_ = the regression coefficient of the last independent variable
 - _ϵ_ = model error (a.k.a. how much variation there is in our estimate of _y_)
+
+<br>
+
+In simple words, the model is expressed as _**DATA = FIT + RESIDUAL**_, where the _"FIT"_ term represents the expression _β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub>_. The _"RESIDUAL"_ term represents the deviations of the observed values _y_ from their means, which are normally distributed with mean 0 and variance. The notation for the model deviations is ϵ.
+
+<br>
+
+## Example of using Multiple Regression for predicting house prices
+We want to predict house prices and gathered a few features, such as, size of the house (sqr. feet), number of bedrooms, and age of the house.
+- The price is our dependent variable (_y_), also known as the _**target variable**_ in Machine Learning lingo.
+- The features are our independent variables (_x<sub>i</sub>_). Where, for _**i = 1, 2, ... , n**_ features.
+- Every value of the independent variable _x_ is associated with a value of the dependent variable _y_.
 
 <!---
 ### _y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i1</sub> + β<sub>2</sub>x<sub>i2</sub> + ... + β<sub>p</sub>x<sub>ip</sub> + ϵ<sub>i</sub>_
