@@ -21,12 +21,12 @@ where, for _i=n_ observations:
 - ϵ = the model's error term (also known as the residuals)
 
 
-y = the predicted value of the dependent variable
-B0 = the y-intercept (value of y when all other parameters are set to 0)
-B1X1= the regression coefficient (B1) of the first independent variable (X1) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value)
-… = do the same for however many independent variables you are testing
-BnXn = the regression coefficient of the last independent variable
-e = model error (a.k.a. how much variation there is in our estimate of y)
+- y = the predicted value of the dependent variable
+- B0 = the y-intercept (value of y when all other parameters are set to 0)
+- B1X1= the regression coefficient (B1) of the first independent variable (X1) (a.k.a. the effect that increasing the value of the independent variable has on the predicted y value)
+- … = do the same for however many independent variables you are testing
+- BnXn = the regression coefficient of the last independent variable
+- e = model error (a.k.a. how much variation there is in our estimate of y)
 
 <br>
 
