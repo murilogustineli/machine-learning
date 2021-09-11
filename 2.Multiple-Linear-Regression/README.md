@@ -45,7 +45,7 @@ We want to predict house prices and gathered a few features, such as, size of th
 <br>
 
 ## Simple Regression vs Multiple Regression
-Simple regression is just fitting a line to data. 
+Simple regression is just fitting a line to data where you have one dependent variable (_y_) and one independent variable (_x_).
 
 _**Multiple linear regression (MLR)**_, also known simply as _**multiple regression**_, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable.
 - The goal of multiple linear regression is to model the linear relationship between the _**explanatory (independent)**_ variables and _**response (dependent)**_ variable. 
@@ -59,7 +59,7 @@ Multiple Linear Regression differs from Multivariate Regression. Multivariate Re
 <br>
 
 ## What does it mean for a multiple regression to be linear?
-In multiple linear regression, the model calculates the line of best fit that minimizes the variances of each of the variables included as it relates to the dependent variable. Because it fits a line, it is a linear model. There are also non-linear regression models involving multiple variables, such as logistic regression, quadratic regression, and probit models.
+In multiple linear regression, the model calculates the _**line of best fit**_ that minimizes the variances of each of the variables included as it relates to the dependent variable. Because it fits a line, it is a linear model. There are also non-linear regression models involving multiple variables, such as logistic regression, quadratic regression, and probit models.
 
 <br>
 
