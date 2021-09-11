@@ -20,6 +20,7 @@ where, for _i=n_ observations:
 - _β<sub>p</sub>_ = slope coeficient for each explanatory variable
 - ϵ = the model's error term (also known as the residuals)
 
+<br>
 
 - y = the predicted value of the dependent variable
 - B0 = the y-intercept (value of y when all other parameters are set to 0)
