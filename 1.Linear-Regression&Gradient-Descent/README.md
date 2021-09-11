@@ -1,5 +1,7 @@
 # Linear Regression and Gradient Descent
-_**Linear Regression**_ is one of the simplest machine learning algorithms you may encounter. It's a supervised learning algorithm which goal is to to find a line that minimizes the prediction error of all data points.
+_**Linear Regression**_ is one of the simplest machine learning algorithms you may encounter. It can be described as:
+- Supervised learning algorithm which goal is to to find a line that minimizes the prediction error of all data points. 
+- Linear approach to modeling the relationship between a dependent variable (Y) and one or more independent variables (X).
 
 In statistics, machine learning and other data science fields, we optimize a lot of stuff. When we fit a line to data using linear regression, we optimize the _**slope**_ and _**intercept**_. Linear Regression predicts continous numerical values based on the given data points. 
 
