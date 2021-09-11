@@ -10,14 +10,14 @@ In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**
 
 <br>
 
-## Formula and Calculation of Multiple Linear Regression
+## Formula of multiple linear regression
 The model for multiple linear regression, given _n_ observations, is:
 ### _y = β<sub>0</sub> + β<sub>1</sub>x<sub>1</sub> + β<sub>2</sub>x<sub>2</sub> + ... + β<sub>n</sub>x<sub>n</sub> + ϵ_
 where, for _**i = 1, 2, ... , n**_ observations:
 - _y_ = the predicted value of the dependent variable
 - _β<sub>0</sub>_ = the y-intercept (value of _y_ when all other parameters are set to 0)
 - _β<sub>1</sub>x<sub>1</sub>_ = the regression coefficient (_β<sub>1</sub>_) of the first independent variable (_x<sub>1</sub>_) (a.k.a. the effect that increasing the value of the independent variable has on the predicted _y_ value)
-- _β<sub>2</sub>x<sub>2</sub>_ = the regressino coefficient (_β<sub>2</sub>_) of the second independent variable (_x<sub>2</sub>_)
+- _β<sub>2</sub>x<sub>2</sub>_ = the regression coefficient (_β<sub>2</sub>_) of the second independent variable (_x<sub>2</sub>_)
 - … = do the same for however many independent variables you are testing
 - _β<sub>n</sub>x<sub>n</sub>_ = the regression coefficient of the last independent variable
 - _ϵ_ = model error (a.k.a. how much variation there is in our estimate of _y_)
@@ -30,8 +30,14 @@ In simple words, the model is expressed as _**DATA = FIT + RESIDUAL**_, where th
 
 ## Example of using Multiple Regression for predicting house prices
 We want to predict house prices and gathered a few features, such as, size of the house (sqr. feet), number of bedrooms, and age of the house.
+
+In this example, our formula can be written as:
+<br>_**price = β<sub>0</sub> + m<sub>1</sub> * size + m<sub>2</sub> * bedrooms + m<sub>3</sub> * age**_
+
 - The price is our dependent variable (_y_), also known as the _**target variable**_ in Machine Learning lingo.
-- The features are our independent variables (_x<sub>i</sub>_). Where, for _**i = 1, 2, ... , n**_ features.
+- The features are our independent variables (_size, bedrooms, age_).
+- _β<sub>0</sub>_ = y-intercept
+- _m_ = regression coefficients
 - Every value of the independent variable _x_ is associated with a value of the dependent variable _y_.
 
 <!---
@@ -67,3 +73,4 @@ In multiple linear regression, the model calculates the _**line of best fit**_ t
 1. [Scribbr - An introduction to multiple linear regression](https://www.scribbr.com/statistics/multiple-linear-regression/)
 2. [Yale Stats](http://www.stat.yale.edu/Courses/1997-98/101/linmult.htm)
 3. [Investopedia - Multiple Linear Regression (MLR)](https://www.investopedia.com/terms/m/mlr.asp)
+4. [codebasics - Machine Learning Tutorial: Linear Regression Multiple Variables](https://www.youtube.com/watch?v=J_LnPL3Qg70&ab_channel=codebasics)
