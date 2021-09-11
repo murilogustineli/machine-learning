@@ -28,7 +28,6 @@ where, for _**i=1, 2, ... , n**_ observations:
 - _β<sub>p</sub>_ = slope coeficient for each explanatory variable
 - ϵ = the model's error term (also known as the residuals)
 --->
-
 <br>
 
 ## Simple Regression vs Multiple Regression
