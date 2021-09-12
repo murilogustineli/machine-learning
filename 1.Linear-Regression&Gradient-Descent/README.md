@@ -14,7 +14,7 @@ In statistics, machine learning and other data science fields, we optimize a lot
   - dependent variable = _**y**_
   - independent variable = _**x**_
 
-![Linear Regression](./Linear_Regression.jpg)
+![Linear Regression](./Images/Linear_Regression.jpg)
 
 ## Hypothesis
 We define a linear relationship between x and y by using the equation _**Y = mX + b**_. <br>In this equation, m is the _**slope**_ of the line and b is the _**y-intercept**_.
