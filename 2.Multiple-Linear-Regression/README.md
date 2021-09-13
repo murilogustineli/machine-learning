@@ -6,7 +6,7 @@ _**Multiple linear regression**_ is used to estimate the relationship between _*
 1. How strong the relationship is between two or more independent variables and one dependent variable (e.g. how size, number of bedroooms, and age affect house prices).
 2. The value of the dependent variable at a certain value of the independent variables (e.g. the expected yield of a crop at certain levels of rainfall, temperature, and fertilizer addition).
 
-In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**features**_ and the dependent variable as _**target**_
+In Machine Learning, we treat the independent variables (_x<sub>i</sub>_) as _**features**_ and the dependent variable (_y_) as _**target**_
 - Where, for _**i = 1, 2, ... , n**_ features.
 
 <br>
