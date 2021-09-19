@@ -12,6 +12,6 @@ Repo for storing and tracking my self-study progress in Machine Learning
 | Notebooks and Projects |
 | ---------------------- |
 | 1. [Linear Regression - Gradient Descent Algorithm](https://github.com/murilogustineli/Machine-Learning/blob/main/1.Linear-Regression%26Gradient-Descent/Gradient_Descent_Algorithm.ipynb) |
-| 2. [Linear Regression from scratch](https://github.com/murilogustineli/Machine-Learning/blob/main/1.Linear-Regression%26Gradient-Descent/LinearRegression.ipynb) |
+| 1.1. [Linear Regression from scratch](https://github.com/murilogustineli/Machine-Learning/blob/main/1.Linear-Regression%26Gradient-Descent/LinearRegression.ipynb) |
 | 3. [Multiple Linear Regression - scikit-learn](https://github.com/murilogustineli/Machine-Learning/blob/main/2.Multiple-Linear-Regression/Multiple_Regression_scikit-learn.ipynb) |
 | 4. [California Housing dataset - scikit-learn](https://github.com/murilogustineli/Machine-Learning/blob/main/2.Multiple-Linear-Regression/California_Housing_dataset_scikit-learn.ipynb) |
