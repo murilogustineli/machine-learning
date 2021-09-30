@@ -5,6 +5,7 @@ _**Linear Regression**_ is one of the simplest machine learning algorithms you m
 
 In statistics, machine learning and other data science fields, we optimize a lot of stuff. When we fit a line to data using linear regression, we optimize the _**slope**_ and _**intercept**_. Linear Regression predicts continous numerical values based on the given data points. 
 
+
 ## Main ideas
 - _**Linear Regression fits a line to data**_ 
 - It is a simple algorithm initially developed in the field of statistics and was studied as a model for understanding the relationship between input and output variables
