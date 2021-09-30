@@ -1,5 +1,5 @@
 # Machine Learning by Stanford University | Coursera
-[Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)'s Machine Learning course on Coursera.
+[Andrew Ng](https://en.wikipedia.org/wiki/Andrew_Ng)'s Machine Learning course on [Coursera](https://www.coursera.org/learn/machine-learning).
 
 Includes lecture notes organized by weekly topics.
 
