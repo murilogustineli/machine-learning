@@ -3,6 +3,8 @@
 
 Includes lecture notes organized by weekly topics.
 
+<!---
+
 ## Lecture Notes
 - Week 1 - Introduction
 - Week 2 - Linear Regression with Multiple Variables
@@ -14,3 +16,5 @@ Includes lecture notes organized by weekly topics.
 - Week 8 - Unsupervised Learning
 - Week 9 - Anomaly Detection and Recommender Systems
 - Week 10 - Large Scale Machine Learning
+
+--->
