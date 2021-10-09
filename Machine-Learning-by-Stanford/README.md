@@ -6,11 +6,11 @@ Includes lecture notes organized by weekly topics. I highly recommend taking thi
 
 ### Lecture Notes
 - [Week 1 - Introduction and Linear Regression](https://github.com/murilogustineli/Machine-Learning/blob/main/Machine-Learning-by-Stanford/Week%201%20-%20Introduction%20and%20Linear%20Regression/Week%201%20-%20Introduction%20and%20Linear%20Regression.ipynb)
+- [Week 2 - Linear Regression with Multiple Variables](https://github.com/murilogustineli/Machine-Learning/blob/main/Machine-Learning-by-Stanford/Week%202%20-%20Linear%20Regression%20with%20Multiple%20Variables/Week%202%20-%20Linear%20Regression%20with%20Multiple%20Variables.ipynb)
+- [Week 3 - Logistic Regression](https://github.com/murilogustineli/Machine-Learning/blob/main/Machine-Learning-by-Stanford/Week%203%20-%20Logistic%20Regression/Week%203%20-%20Logistic%20Regression.ipynb)
+
 
 <!---
-
-- Week 2 - Linear Regression with Multiple Variables
-- Week 3 - Logistic Regression
 - Week 4 - Neural Networks
 - Week 5 - Neural Networks - Learning
 - Week 6 - Regularlized Linear Regression and Bias v.s. Variance
