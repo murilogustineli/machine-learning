@@ -14,7 +14,7 @@ Repo for storing and tracking my self-study progress in Machine Learning
 
 | Deep Learning Resources and Books |
 | --------------------------------- |
-| 1. [Deep Learning Specialization](https://www.deeplearning.ai/program/deep-learning-specialization/) |
+| 1. [Deep Learning Specialization - DeepLearning.AI](https://www.deeplearning.ai/program/deep-learning-specialization/) |
 | 2. [fast.ai](https://www.fast.ai/) |
 
 <br>
