@@ -39,6 +39,7 @@ Repo for storing and tracking my self-study progress in Machine Learning
 | Articles and Blog posts |
 | ----------------------- |
 | 1. [Machine Learning Mastery - Why Machine Learning Does Not Have to Be So Hard](https://machinelearningmastery.com/youre-wrong-machine-learning-not-hard/) |
-| 2. [8 Fun Machine Learning Projects for Beginners](https://elitedatascience.com/machine-learning-projects-for-beginners)
+| 2. [8 Fun Machine Learning Projects for Beginners](https://elitedatascience.com/machine-learning-projects-for-beginners) |
+| 3. [Neural Networks - IBM](https://www.ibm.com/cloud/learn/neural-networks) |
 
 
