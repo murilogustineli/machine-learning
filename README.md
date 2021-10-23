@@ -9,6 +9,7 @@ Repo for storing and tracking my self-study progress in Machine Learning
 | 2. [Machine Learning From Scratch by Danny Friedman](https://dafriedman97.github.io/mlbook/content/introduction.html) |
 | 3. [Hands On Machine Learning with Scikit Learn, Keras and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=pd_lpo_1?pd_rd_i=1492032646&psc=1) |
 | 4. [scikit-learn Tutorials](https://scikit-learn.org/stable/tutorial/#) |
+| 5. [Foundations of Machine Learning - Bloomberg ML EDU](https://bloomberg.github.io/foml/#home) |
 
 <br>
 
