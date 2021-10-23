@@ -25,7 +25,8 @@ Repo for storing and tracking my self-study progress in Machine Learning
 | 1. [Linear Algebra - Khan Academy](https://www.khanacademy.org/math/linear-algebra) |
 | 2. [3Blue1Brown - Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) |
 | 3. [Statistics and probability - Khan Academy](https://www.khanacademy.org/math/statistics-probability) |
-
+| 4. [The Roadmap of Mathematics for Machine Learning - TowardsDataScience](https://towardsdatascience.com/the-roadmap-of-mathematics-for-deep-learning-357b3db8569b) |
+ 
 <br>
 
 | Notebooks and Projects |
